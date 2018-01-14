@@ -1,3 +1,4 @@
+// @TODO: отступы
 body {
 	background-color: #fff;
 	font-size: 18px;
@@ -9,6 +10,7 @@ h1, h2 {
 	font-size: 40px;
 }
 
+// @TODO: размеры для дива обертки надо задавтаь, для картинки все должно быть отосительно
 img {
 	width: 150px;
 	height: 160px;

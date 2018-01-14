@@ -1,3 +1,5 @@
+// @TODO: однотипные отступы,
+
 *,
 *:before,
 *:after {
@@ -24,6 +26,7 @@ header {
 main {
 	color: #3b3f45;
 	width: 800px;
+	// @TODO: margin: 20px auto
 	margin: 20px auto 20px;
 }
 
@@ -31,12 +34,14 @@ p {
 	font-size: 20px;
  }
 
+// @TODO: ??? что это за класс ??
 .div {
 	height: 75px;
 	width: 800px;
 	border: 2px solid transparent;
 }
 
+// @TODO: nth-of-type(even) или nth-of-type(odd), это во-первых, во-вторых, стилим не по тегу, а по классу 
 div:nth-child(1),
 div:nth-child(3),
 div:nth-child(5) {
@@ -59,6 +64,7 @@ div:nth-child(2n) {
 	color: #f9ede0;
 }
 
+// @TODO: :visited - нет такого состояния у дива
 .row:visited {
 	border-top: 0;
 	border-bottom: 0;
@@ -70,6 +76,7 @@ div:nth-child(2n) {
 	background-color: #625e76;
 }
 
+// @TODO: :visited - нет такого состояния у дива
 .row:active {
 	border-top: 3px solid #ffffff;
 	border-bottom: 3px solid #ffffff;
@@ -80,6 +87,7 @@ main {
 	color: #3b3f45;
 }
 
+// @TOOD: зачем вложенность?? 
 footer .row_footer {
 	height: 75px;
 	width: 800px;
@@ -92,6 +100,7 @@ footer .row_footer {
 	font-size: 20px;
 }
 
+// @TODO: стилить по классу, а не по тегу
 span+span {
 	font-size: 15px;
 } 
