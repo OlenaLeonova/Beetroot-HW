@@ -1,17 +1,43 @@
-// @TODO: отступы
 body {
 	background-color: #fff;
 	font-size: 18px;
-	color: #000;
 }
 
-h1, h2 {
-	text-align: center;
+h1 {
+	font-size: 45px;
+}
+
+h2 {
 	font-size: 40px;
 }
 
-// @TODO: размеры для дива обертки надо задавтаь, для картинки все должно быть отосительно
-img {
-	width: 150px;
+div.img-container {
+	background-size: cover;
+	width: 150px; 
 	height: 160px;
+	overflow: hidden;
+}
+
+.img-container img {
+	width: 100%;
+	height: 100%;
+}
+
+.main_info,
+.education,
+.experience {
+	border-bottom: 2px solid #000;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+footer {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.paragraphly {
+	font-weight:bold;
 }
