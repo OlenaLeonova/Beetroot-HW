@@ -1,0 +1,103 @@
+body {
+  font-family:"Segoe UI",sans-serif;
+}
+
+.wrapper {
+  height: 2000px;
+}
+
+.header {
+  height: 45%;
+  background-color: #23232e;
+}
+
+.logo {
+  height: 30%;
+}
+
+.logo__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+.title {
+  height: 40%;
+}
+
+.title__name {
+  padding-top: 120px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title__description {
+  width: 22%;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 34px;
+}
+
+.badge {
+  height: 30%;
+}
+
+.badge__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 152px;
+}
+
+.mainArticles__content {
+  width: 50%;
+  font-size: 30px;
+  text-align: center;
+  color: #464b4f;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 122px;
+}
+
+.mainArticles__content_padding-top {
+  padding-top: 50px;
+}
+
+.additionalArticles__mainName {
+  padding-top: 100px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #464b4f;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.additionalArticles__additionalName {
+  display: inline-block;
+  width: 16%;
+  padding-top: 80px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.additionalArticles__additionalName_margin-left {
+  margin-left: 26%;
+}
+
+.additionalArticles__content {
+  display: inline-block;
+  width: 16%;
+  padding-top: 29px;
+  font-size: 18px;
+}
+
+.additionalArticles__content_margin-left {
+  margin-left: 26%;
+}
