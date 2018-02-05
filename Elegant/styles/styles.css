@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Raleway:400,700');
+
+body {
+  font: 400 22px/1.4 'Lato',Arial,sans-serif;
+  color: #fff;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 1024px;
+}
+
+.header__container,
+.our-services__container,
+.section__dolore-magna__container,
+.our-work__container,
+.footer__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 73%;
+  color: #fff;
+  border:1px solid rgba(0,0,0,0);
+}
+
+.header {
+  background: #02496a url('./../img/backgroundHeader.png') 50% no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 48px;
+}
+
+.logo__link {
+  text-decoration: none;
+}
+
+.menu {
+  float:right;
+  padding-top: 40px;
+}
+
+.menu__container {
+  position: relative;
+}
+
+.menu__element {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.menu__element_contact-us {
+  padding-right: 70px;
+}
+
+.menu__link {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  transform: scaleY(1.0054);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #e0e2e3;
+  text-decoration: overline;
+}
+
+.greeting__name {
+  padding-top: 233px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.greeting__lineContainer {
+  display: inline-block;
+}
+
+.greeting__line {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90px;
+  margin-top: 52px;
+  border: none;
+  background-color: #fff;
+  color: #fff;
+  height: 2px;
+}
+
+.greeting__description {
+  padding-top: 48px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.badge {
+  text-align: center;
+  height: 92px;
+  padding-top: 260px ;
+  padding-bottom: 45px;
+}
+
+.section__our-service {
+  background: #fff;
+  background-size: cover;
+}
+
+.our-services__container {
+  font-size: 0;
+}
+
+.our-services__name {
+  font-family: "Times New Roman", serif;
+  color: #222;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 118px;
+}
+
+.our-services__line {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90px;
+  margin-top: 80px;
+  border: none;
+  background-color: #222;
+  color: #222;
+  height: 2px;
+}
+
+.our-services__imgContainer {
+  padding-top: 78px;
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+
+.our-services__img_phone {
+  padding-left: 6%;
+}
+
+.our-services__img_checkMark {
+  padding-right: 6%;
+}
+
+.our-services__nameDescription {
+  display: inline-block;
+  width: 33%;
+  margin-top: 30px;
+  font-family: Lato, sans-serif;
+  color: #222;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.our-services__description {
+  display: inline-block;
+  width: 33%;
+  margin-top: 30px;
+  padding-bottom: 109px;
+  font-family: Lato, sans-serif;
+  color: #222;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.section__dolore-magna-aliqua {
+  background: #2f2f2f url('/img/doloreMagnaAliquaBackgraund.png') 50% no-repeat;
+  background-size: cover;
+}
+
+.section__dolore-magna__container {
+  font-size: 0;
+  height: 500px;
+}
+
+.dolore-magna-aliqua {
+  display: block;
+  position: relative;
+}
+
+.dolore-magna-aliqua__name {
+  display: inline-block;
+  padding-top: 159px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  transform: scaleY(1.0092);
+  text-transform: uppercase;
+  width: 50%;
+}
+
+@media screen and (max-width: 1800px) {
+  .dolore-magna-aliqua__name {
+    font-size:30px;
+  }
+}
+
+.dolore-magna-aliqua__imgContainer {
+  display: inline-block;
+  margin-top: 73px;
+  margin-left: 15%;
+}
+
+.dolore-magna-aliqua__description {
+  display: inline-block;
+  margin-top: -260px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 28px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1400px) {
+  .dolore-magna-aliqua__description {
+    font-size: 19px;
+  }
+}
+
+.dolore-magna-aliqua__linkContainer {
+  float: left;
+  margin-top: -115px;
+}
+
+.dolore-magna-aliqua__link {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.dolore-magna-aliqua__linkk:hover {
+  color: darkgrey;
+}
+
+.section__our-work {
+  background: #fff;
+  background-size: cover;
+}
+
+.our-work__container {
+  font-size: 0;
+}
+
+.our-work {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.our-work__name {
+  font-family: Raleway, sans-serif;
+  color: #222;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 124px;
+}
+
+.our-work__line {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90px;
+  margin-top: 80px;
+  border: none;
+  background-color: #222;
+  color: #222;
+  height: 2px;
+}
+
+.our-work__imgContainer {
+  margin-top: 78px;
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.our-work__imgContainer_jetindus-border {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.our-work__img {
+  width: 100%;
+  float: left;
+}
+
+.our-work__imgContainer:hover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #222;
+  opacity: 0.8;
+  transition: opacity .5s ease;
+}
+
+.our-work__imgContainer:hover .our-work__text {
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity .7s ease;
+}
+
+.our-work__text {
+  margin-left: 20%;
+  margin-top: 60px;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  font-family: Lato, sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1400px) {
+  .our-work__text {
+    font-size: 16px;
+  }
+}
+
+.our-work__linkContainer {
+  margin: 84px auto;
+  display: block;
+  border: 2px solid #222;
+  width: 32%;
+  height: 58px;
+  text-align: center;
+}
+
+.our-work__link {
+  font-family: Lato, sans-serif;
+  color: #222;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.our-work__link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background: #131b1e url('/img/backgroundFooter.png') 50% no-repeat;
+  background-size: cover;
+}
+
+.footer__container {
+  box-sizing: border-box;
+}
+
+.our-work__name {
+  font-family: Raleway, sans-serif;
+  color: #222;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 124px;
+}
+
+.our-work__line {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90px;
+  margin-top: 80px;
+  border: none;
+  background-color: #222;
+  color: #222;
+  height: 2px;
+}
+
+.get-in-touch {
+  box-sizing: border-box;
+}
+
+.get-in-touch__name {
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 124px;
+}
+
+.get-in-touch__line {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90px;
+  margin-top: 80px;
+  border: none;
+  background-color: #fff;
+  color: #fff;
+  height: 2px;
+}
+
+.menuSocial {
+  padding-top: 70px;
+}
+
+.menuSocial__container {
+  text-align: center;
+}
+
+.menuSocial__element {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.menu__element_Share1-padding {
+  padding-left: 0;
+}
+
+.menuSocial__element_Share5-padding {
+  padding-top: 5px;
+}
+
+.get-in-touch__form {
+  text-align: center;
+}
+
+.get-in-touch__input {
+  margin-top: 70px;
+  width: 26%;
+  border-bottom: 3px solid #afafaf;
+  background-color: rgba(0,0,0,0);
+  font-family: Lato, sans-serif;
+  color: #676767;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.get-in-touch__input_message_email {
+  margin-left: 6%;
+}
+
+.get-in-touch__input_message {
+  width: 60%;
+  margin-top: 90px;
+}
+
+.submit {
+  background-color: rgba(0,0,0,0);
+  margin: 49px auto;
+  display: block;
+  border: 3px solid #fff;
+  width: 16%;
+  height: 58px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+}
