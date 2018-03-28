@@ -1,0 +1,121 @@
+.grid {
+	max-width: 991px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* clearfix */
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*grid-item*/
+
+.grid-item {
+	width: 240px;
+	float: left;
+	border-color: hsla(0, 0%, 0%, 0.5);
+	padding-top: 50px;
+	&:hover:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #202224;
+		opacity: 0.2;
+	}
+}
+
+/*height && width*/
+.grid-item--height1 {
+	height: 362px;
+}
+.grid-item--height2 {
+	height: 229px;
+}
+.grid-item--height3 {
+	height: 301px;
+}
+.grid-item--height4 {
+	height: 362px;
+}
+.grid-item--height5 {
+	height: 343px;
+}
+.grid-item--height6 {
+	height: 373px;
+}
+.grid-item--height7 {
+	height: 362px;
+}
+.grid-item--height8 {
+	height: 269px;
+}
+.grid-item--height9 {
+	height: 358px;
+}
+.grid-item--height10 {
+	height: 299px;
+}
+.grid-item--height11 {
+	height: 256px;
+}
+.grid-item--height12 {
+	height: 206px;
+	@media only screen and (max-width: 1180px) {
+		height: 115px;
+	}
+	@media only screen and (max-width: 894px) {
+		height: 184px;
+	}
+	@media only screen and (max-width: 606px) {
+		height: 206px;
+	}
+}
+
+/*margin-top*/
+.grid-item--margin-top {
+	margin-top: 10px;
+}
+
+/*background*/
+.grid-item--background1 {
+	background-image: url("../images/main/masonry/item1.png");
+}
+.grid-item--background2 {
+	background-image: url("../images/main/masonry/item2.png");
+}
+.grid-item--background3 {
+	background-image: url("../images/main/masonry/item3.png");
+}
+.grid-item--background4 {
+	background-image: url("../images/main/masonry/item4.png");
+}
+.grid-item--background5 {
+	background-image: url("../images/main/masonry/item5.png");
+}
+.grid-item--background6 {
+	background-image: url("../images/main/masonry/item6.png");
+}
+.grid-item--background7 {
+	background-image: url("../images/main/masonry/item7.png");
+}
+.grid-item--background8 {
+	background-image: url("../images/main/masonry/item8.png");
+}
+.grid-item--background9 {
+	background-image: url("../images/main/masonry/item9.png");
+}
+.grid-item--background10 {
+	background-image: url("../images/main/masonry/item10.png");
+}
+.grid-item--background11 {
+	background-image: url("../images/main/masonry/item11.png");
+}
+.grid-item--background12 {
+	background-image: url("../images/main/masonry/item12.png");
+}

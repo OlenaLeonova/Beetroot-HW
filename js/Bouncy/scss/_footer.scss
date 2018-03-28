@@ -1,0 +1,113 @@
+.footer {
+	flex-basis: 100%;
+	flex-flow: row wrap;
+	background: $backgroundWhite;
+	background-size: cover;
+}
+
+.contacts {
+	.contacts__title {
+		max-width: 86%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-basis: 100%;
+		padding-top: 70px;
+		padding-bottom: 40px;
+		font-family: $font_family_SourceSansPro;
+		color: #333b46;
+		font-size: 20px;
+		font-weight: 300;
+		letter-spacing: 4px;
+		line-height: 12px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.contacts__description1 {
+		max-width: 86%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-basis: 100%;
+		padding-bottom: 70px;
+		font-family: $font_family_OpenSans;
+		color: #81868e;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		text-align: center;
+		white-space: pre-line;
+	}
+
+	.contacts__map {
+		width: 100%;
+		position: relative;
+	}
+
+	.contacts__titleBottom {
+		display: flex;
+		justify-content: center;
+		padding-top: 65px;
+		max-width: 86%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-basis: 100%;
+	}
+
+	.contacts__description2 {
+		max-width: 86%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-basis: 100%;
+		font-family: $font_family_OpenSans;
+		color: #81868e;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		text-align: center;
+		white-space: pre-line;
+	}
+
+	.menuSocial {
+		display: flex;
+		justify-content: center;
+		max-width: 86%;
+		margin-left: auto;
+		margin-right: auto;
+
+		.menuSocial__container {
+			flex-basis: 20%;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			padding: 39px 0 64px 0;
+
+			.menuSocial__element {
+				display: flex;
+				justify-content: center;
+				background: red;
+				width: 30px;
+				border-radius: 50%;
+
+				.menuSocial__link {
+					.menuSocial__img {
+					}
+				}
+			}
+			.menuSocial__element_bg1 {
+				background: #3b5998;
+			}
+			.menuSocial__element_bg2 {
+				background: #26a6d1;
+			}
+			.menuSocial__element_bg3 {
+				background: #0e76a8;
+			}
+			.menuSocial__element_bg4 {
+				background: #3f729b;
+			}
+			.menuSocial__element_bg5 {
+				background: #86c9ef;
+			}
+		}
+	}
+}

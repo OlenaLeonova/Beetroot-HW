@@ -1,0 +1,110 @@
+.header {
+	flex-basis: 100%;
+	background: #5a584a url('../images/header/backgroundHeader.jpg') 50% no-repeat;
+	background-size: cover;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #202224;
+		opacity: 0.5;
+	}
+}
+
+.header-container {
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+	z-index: 1;
+}
+
+.logo {
+	padding: 45px 0;
+	flex-basis: 40%;
+}
+
+.navMain {
+	flex-basis: 60%;
+	padding-top: 40px;
+	.navMain__container {
+		display: flex;
+		justify-content: flex-end;
+		@include mq("phone-wide") {
+			flex-flow: row-reverse wrap;
+		}
+		.navMain__element {
+			margin-left: 5px;
+			.navMain__link {
+				padding: 6px 20px;
+				font-family: $font_family_OpenSans;
+				color: $text_color_white;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 12px;
+				text-align: right;
+				text-decoration: none;
+				&:hover {
+					border-radius: 30px;
+					border: 1px solid $text_color_white;
+					transition: all .5s ease .2s;
+				}
+			}
+		}
+	}
+}
+
+.greeting {
+	flex-basis: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	.greeting__name {
+		flex-basis: 100%;
+		padding-top: 185px;
+		font-family: $font_family_SourceSansPro;
+		color: $text_color_white;
+		font-size: 35px;
+		font-weight: 300;
+		letter-spacing: 7px;
+		line-height: 70px;
+		text-align: center;
+		text-transform: uppercase;
+		@include mq("phone-wide") {
+			padding-top: 100px;
+		}
+	}
+	.greeting__description {
+		flex-basis: 100%;
+		padding-top: 10px;
+		font-family: $font_family_OpenSans;
+		color: $text_color_white;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		text-align: center;
+		white-space: pre-line;
+	}
+}
+.badge {
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 65px 0;
+	.badge__link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 35px;
+		height: 35px;
+		border-radius: 50px;
+		background-color: #19bd9a;
+		border: $borderElement;
+		.badge__img {
+			&:hover {
+			}
+		}
+	}
+}

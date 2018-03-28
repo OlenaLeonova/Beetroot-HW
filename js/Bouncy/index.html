@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bouncy</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/libs/jquery/jquery-3.3.1.min.js"></script>
+  <script src="./js/libs/masonry/masonry.pkgd.min.js"></script>
+  <script src="./js/scripts/masonry.js"></script>
+  <script src="./js/scripts/masonrySelect.js"></script>
+  <script src="./js/libs/slickSlider/slick.min.js"></script>
+  <script src="./js/scripts/slickSlider.js"></script>
+  <script src="./js/scripts/map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqSQDDaJTAsMkOAJdO5_6-pp2WiSgBVvM&callback=initMap">
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header-container" id="header">
+        <div class="logo">
+          <a href="">
+            <img class="logo__img" src="./images/header/logo.png" alt="Logo">
+          </a>
+        </div>
+        <nav class="navMain">
+          <ul class="navMain__container">
+            <li class="navMain__element">
+              <a class="navMain__link" href="#header">Hello</a>
+            </li>
+            <li class="navMain__element">
+              <a class="navMain__link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="navMain__element">
+              <a class="navMain__link" href="#team">Team</a>
+            </li>
+            <li class="navMain__element">
+              <a class="navMain__link" href="#contacts">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="greeting">
+          <h1 class="greeting__name">we are code cafe</h1>
+          <p class="greeting__description">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+          </p>
+        </div>
+        <div class="badge">
+          <a class="badge__link" href="#portfolio">
+            <img class="badge__img" src="./images/header/bange.png" alt="bange">
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="section-portfolio">
+      <div class="portfolio-container" id="portfolio">
+        <div class="portfolio">
+          <h2 class="portfolio__title">
+            the portfolio
+          </h2>
+          <p class="portfolio__description">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+          </p>
+          <nav class="navPortfolio">
+            <ul class="navPortfolio__container">
+              <li id="AllWorks" class="navPortfolio__element">
+                All Works
+                <hr class="hrLink">
+              </li>
+              <li id="Print" class="navPortfolio__element">
+                Print
+                <hr class="hrLink">
+              </li>
+              <li id="Branding" class="navPortfolio__element">
+                Branding
+                <hr class="hrLink">
+              </li>
+              <li id="Web" class="navPortfolio__element">
+                Web
+                <hr class="hrLink">
+              </li>
+              <li id="HTML" class="navPortfolio__element">
+                HTML
+                <hr class="hrLink">
+              </li>
+            </ul>
+          </nav>
+          <div class="masonry">
+            <div class="grid">
+              <div id="cell1" class="grid-item grid-item--height1 grid-item--margin-top grid-item--background1"></div>
+              <div id="cell2" class="grid-item grid-item--height2 grid-item--margin-top grid-item--background2"></div>
+              <div id="cell3" class="grid-item grid-item--height3 grid-item--margin-top grid-item--background3"></div>
+              <div id="cell4" class="grid-item grid-item--height4 grid-item--margin-top grid-item--background4"></div>
+              <div id="cell5" class="grid-item grid-item--height5 grid-item--margin-top grid-item--background5"></div>
+              <div id="cell6" class="grid-item grid-item--height6 grid-item--margin-top grid-item--background6"></div>
+              <div id="cell7" class="grid-item grid-item--height7 grid-item--margin-top grid-item--background7"></div>
+              <div id="cell8" class="grid-item grid-item--height8 grid-item--margin-top grid-item--background8"></div>
+              <div id="cell9" class="grid-item grid-item--height9 grid-item--margin-top grid-item--background9"></div>
+              <div id="cell10" class="grid-item grid-item--height10 grid-item--margin-top grid-item--background10"></div>
+              <div id="cell11" class="grid-item grid-item--height11 grid-item--margin-top grid-item--background11"></div>
+              <div id="cell12" class="grid-item grid-item--height12 grid-item--margin-top grid-item--background12"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-team">
+      <div class="team-container" id="team">
+        <div class="team">
+          <h2 class="team__title">
+            the team
+          </h2>
+          <p class="team__description">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+          </p>
+        </div>
+        <div class="teamSliderContainer">
+          <div class="teamSlider">
+            <div class="teamSliderElement">
+              <div class="teamSliderElement__ImgContainer">
+                <img class="teamSliderElement__Img" src="./images/main/teamSlider/item1.png">
+              </div>
+              <div class="teamSliderElement__descriptionContainer">
+                <h3 class="teamSliderElement__Title">Abdullah Noman</h3>
+                <p class="teamSliderElement__Post">Creative Director, Code Cafe</p>
+                <p class="teamSliderElement__Description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                </p>
+              </div>
+            </div>
+            <div class="teamSliderElement">
+              <div class="teamSliderElement__ImgContainer">
+                <img src="./images/main/teamSlider/item2.png">
+              </div>
+              <div class="teamSliderElement__descriptionContainer">
+                <h3 class="teamSliderElement__Title">Martin Johnson</h3>
+                <p class="teamSliderElement__Post">Programmer, JavaScript</p>
+                <p class="teamSliderElement__Description">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                  </p>
+              </div>
+            </div>
+            <div class="teamSliderElement">
+              <div class="teamSliderElement__ImgContainer">
+                <img src="./images/main/teamSlider/item3.png">
+              </div>
+              <div class="teamSliderElement__descriptionContainer">
+                <h3 class="teamSliderElement__Title">Sandra King</h3>
+                <p class="teamSliderElement__Post">Programmer, PHP</p>
+                <p class="teamSliderElement__Description">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-contact">
+      <div class="contact">
+        <p class="contact__message">
+          Already Loved Us? Let’s talk!
+        </p>
+        <div class="contact__linkContainer">
+          <a class="contact__link" href="">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section-testimonyals">
+      <div class="testimonyals-container">
+        <div class="testimonyals">
+          <h2 class="testimonyals__title">
+            testimonyals
+          </h2>
+          <p class="testimonyals__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+          </p>
+        </div>
+        <div class="testimonyalsSliderContainer">
+          <div class="testimonyalsSlider">
+            <div class="testimonyalsSliderElement">
+              <div class="testimonyalsSliderElement__ImgContainer">
+                <img class="testimonyalsSliderElement__Img" src="./images/main/testimonyalSlider/item1.png">
+              </div>
+              <div class="testimonyalsSliderElement__descriptionContainer">
+                <p class="testimonyalsSliderElement__Description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                  praesentium vo- luptatum deleniti atque corrupti quos dolores et quas molestias
+                  excepturi sint occaecati cu- piditate non provident, similique sunt in culpa qui
+                  officia deserunt mollitia.
+                </p>
+                <h3 class="testimonyalsSliderElement__Title">cristy stewart</h3>
+                <p class="testimonyalsSliderElement__Post">testimonyals</p>
+              </div>
+            </div>
+            <div class="testimonyalsSliderElement">
+              <div class="testimonyalsSliderElement__ImgContainer">
+                <img class="testimonyalsSliderElement__Img" src="./images/main/testimonyalSlider/item2.png">
+              </div>
+              <div class="testimonyalsSliderElement__descriptionContainer">
+                <p class="testimonyalsSliderElement__Description">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium vo- luptatum deleniti atque corrupti quos dolores et quas molestias
+                    excepturi sint occaecati cu- piditate non provident, similique sunt in culpa qui
+                    officia deserunt mollitia.
+                </p>
+                <h3 class="testimonyalsSliderElement__Title">Tonya Reed</h3>
+                <p class="testimonyalsSliderElement__Post">testimonyals</p>
+              </div>
+            </div>
+            <div class="testimonyalsSliderElement">
+              <div class="testimonyalsSliderElement__ImgContainer">
+                <img class="testimonyalsSliderElement__Img" src="./images/main/testimonyalSlider/item3.png">
+              </div>
+              <div class="testimonyalsSliderElement__descriptionContainer">
+                <p class="testimonyalsSliderElement__Description">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium vo- luptatum deleniti atque corrupti quos dolores et quas molestias
+                    excepturi sint occaecati cu- piditate non provident, similique sunt in culpa qui
+                    officia deserunt mollitia.
+                </p>
+                <h3 class="testimonyalsSliderElement__Title">Joseph Bacon</h3>
+                <p class="testimonyalsSliderElement__Post">testimonyalse</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="contacts" id="contacts">
+          <h2 class="contacts__title">contact us</h2>
+          <p class="contacts__description1">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+          </p>
+          <div class="contacts__map">
+            <div id="map"></div>
+          </div>
+          <h2 class="contacts__titleBottom">
+            <img src="./images/footer/logo.png" alt="">
+          </h2>
+          <p class="contacts__description2">
+            Copyright 2015. All rights Reserved
+          </p>
+          <div class="menuSocial">
+            <ul class="menuSocial__container">
+              <li class="menuSocial__element menuSocial__element_bg1">
+                <a class="menuSocial__link" href="">
+                  <img class="menuSocial__img " src="./images/footer/socialNetworks_1.png" alt="">
+                </a>
+              </li>
+              <li class="menuSocial__element menuSocial__element_bg2">
+                <a class="menuSocial__link" href="">
+                  <img class="menuSocial__img " src="./images/footer/socialNetworks_2.png" alt="">
+                </a>
+              </li>
+              <li class="menuSocial__element menuSocial__element_bg3">
+                <a class="menuSocial__link" href="">
+                  <img class="menuSocial__img " src="./images/footer/socialNetworks_3.png" alt="">
+                </a>
+              </li>
+              <li class="menuSocial__element menuSocial__element_bg4">
+                <a class="menuSocial__link" href="">
+                  <img class="menuSocial__img " src="./images/footer/socialNetworks_4.png" alt="">
+                </a>
+              </li>
+              <li class="menuSocial__element menuSocial__element_bg5">
+                <a class="menuSocial__link" href="">
+                  <img class="menuSocial__img " src="./images/footer/socialNetworks_5.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  </body>
+
+</html>
