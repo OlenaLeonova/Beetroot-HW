@@ -1,0 +1,70 @@
+.section-resentWorks {
+	background: #b6b2d5 url('../images/resentWorks/background.png') 50% no-repeat;
+	background-size: cover;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #b1afd1;
+		opacity: 0.85;
+	}
+
+	.resentWorks {
+		.resentWorks__badgeContainer {
+			display: flex;
+			padding-top: 45px;
+			.resentWorks__badgeImg {
+				margin: auto;
+				position: relative;
+			}
+		}
+
+		.resentWorks__title {
+			font-family: ProximaNova;
+			color: #fefcfe;
+			font-size: 36px;
+			font-weight: 600;
+			text-align: center;
+			text-transform: uppercase;
+			position: relative;
+			padding-top: 30px;
+		}
+
+		.slider1Container {
+			margin: 70px 0 90px 0;
+			.slider1 {
+				.slider1__element {
+					display: flex;
+					justify-content: center;
+				}
+			}
+		}
+
+		.resentWorks__buttonContainer {
+			display: flex;
+			padding: 0 0 58px 0;
+			.resentWorks__buttonText {
+				margin: auto;
+				position: relative;
+				padding: 16px 48px;
+				border: 1px solid #ebebeb;
+				.resentWorks__link {
+					font-family: $font_family_PTSans;
+					color: #ffffff;
+					font-size: 20px;
+					font-style: italic;
+					text-align: center;
+					text-decoration: none;
+					&:hover {
+						color: #ebebeb;
+						transition: $transition;
+					}
+				}
+			}
+		}
+	}
+}

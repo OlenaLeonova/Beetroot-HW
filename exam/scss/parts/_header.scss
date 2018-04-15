@@ -1,0 +1,116 @@
+/*-----header------------------*/
+.section-header {
+	background: #b8b1cd url('../images/header/backgroundHeader.jpg') 50% no-repeat;
+	background-size: cover;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #9f9acf;
+		opacity: 0.5;
+	}
+	.header {
+		display: flex;
+		flex-flow: row wrap;
+		position: relative;
+		z-index: 1;
+		.logoHeader {
+			padding: 36px 30px 17px 20px;
+			flex-basis: 20%;
+			@include mq("tablet-wide") {
+				flex-basis: 100%;
+			}
+		}
+		.navMain {
+			flex-basis: 80%;
+			padding-top: 57px;
+			@include mq("tablet") {
+				flex-basis: 100%;
+			}
+			.navMain__container {
+				display: flex;
+				justify-content: flex-end;
+				@include mq("tablet") {
+					flex-wrap: wrap;
+					justify-content: center;
+					transition: $transition;
+				}
+
+				.navMain__element {
+					margin-left: 25px;
+					@include mq("phone-wide") {
+						flex-basis: 100%;
+					}
+					.navMain__link {
+						font-family: $font_family_ProximaNova;
+						color: #ffffff;
+						font-size: 24px;
+						font-weight: 600;
+						line-height: 10px;
+						text-align: left;
+						text-decoration: none;
+						text-transform: uppercase;
+						@include mq("tablet-wide") {
+							font-size: 19px;
+							transition: $transition;
+						}
+						@include mq("tablet") {
+							font-size: 16px;
+							transition: $transition;
+						}
+						&:hover {
+							color: #565671;
+							opacity: 0.5;
+							transition: $transition;
+						}
+					}
+				}
+			}
+		}
+
+		.greetingHeader {
+			flex-basis: 100%;
+			display: flex;
+			flex-flow: row wrap;
+			.greetingHeader__title {
+				flex-basis: 100%;
+				padding: 285px 0 39px 0;
+				font-family: $font_family_ProximaNova;
+				color: #fefefb;
+				font-size: 71.97px;
+				font-weight: 700;
+				text-align: center;
+				text-transform: uppercase;
+				@include mq("tablet-wide") {
+					padding-top: 180px;
+					font-size: 50px;
+					transition: $transition;
+				}
+				@include mq("tablet") {
+					padding-top: 100px;
+					font-size: 30px;
+					transition: $transition;
+				}
+			}
+			.greetingHeader__description {
+				flex-basis: 100%;
+				padding: 0 0 285px 0;
+				font-family: $font_family_PTSans;
+				color: #fefdfd;
+				font-size: 29.99px;
+				font-style: italic;
+				text-align: center;
+				white-space: pre-line;
+				@include mq("tablet") {
+					padding-bottom: 180px;
+					font-size: 18px;
+					transition: $transition;
+				}
+			}
+		}
+	}
+}

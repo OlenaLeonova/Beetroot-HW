@@ -1,0 +1,75 @@
+.grid {
+	padding-top: 119px;
+	max-width: 1130px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/* clearfix */
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+	min-width: 375px;
+	@include mq("tablet") {
+		min-width: 277px;
+	}
+	/*min-width: 280px;*/
+	float: left;
+	border-color: hsla(0, 0%, 0%, 0.5);
+
+	&:hover:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #c3c0db;
+		opacity: 0.2;
+	}
+}
+
+.grid-item3 {
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #9f9acf;
+		opacity: 0.5;
+	}
+}
+
+/*height && width*/
+.grid-item--height {
+	height: 400px;
+}
+.grid-item--height2 {
+	height: 800px;
+}
+
+/*background*/
+.grid-item--background1 {
+	background: #dbdbdb;
+}
+.grid-item--background2 {
+	background: #ebebeb;
+}
+.grid-item--background3 {
+	background-image: url("../images/aboutUs/our_services_background.png");
+}
+.grid-item--background4 {
+	background: #ebebeb;
+}
+.grid-item--background5 {
+	background: #dbdbdb;
+}

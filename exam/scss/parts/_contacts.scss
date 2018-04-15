@@ -1,0 +1,115 @@
+.section-contacts {
+	background: #c8c4da url('../images/contacts/background.png') 50% no-repeat;
+	background-size: cover;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #9f9acf;
+		opacity: 0.5;
+	}
+	.contacts {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		position: relative;
+		z-index: 1;
+		.contacts__badgeContainer {
+			flex-basis: 100%;
+			display: flex;
+			padding-top: 56px;
+			.contacts__badgeImg {
+				margin: auto;
+			}
+		}
+		.contacts__title {
+			flex-basis: 100%;
+			padding: 27px 0 52px 0;
+			font-family: $font_family_ProximaNova;
+			color: #ffffff;
+			font-size: 36px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.contactsBadgeHouse {
+			flex-basis: 100%;
+			display: flex;
+			justify-content: flex-end;
+			.contactsBadgeHouse__imageContainer {
+				background: #9f9acf;
+				padding: 25px 25px;
+				/*
+               .contactsBadgeHouse__img{
+               }
+               */
+			}
+			.contactsBadgeHouse__description {
+				background: #ebebeb;
+				opacity: 0.5;
+				padding: 19px 40px;
+				white-space: pre-line;
+				font-family: $font_family_PTSans;
+				color: #665f60;
+				font-size: 18px; /* Приближение из-за подстановки шрифтов */
+				font-weight: 400;
+				text-align: center;
+				position: relative;
+			}
+		}
+
+		.contactsBadgePhone {
+			display: flex;
+			flex-basis: 100%;
+			justify-content: flex-end;
+			.contactsBadgePhone__imageContainer {
+				background: #9f9acf;
+				padding: 25px 35px;
+			}
+		}
+		.sendingMessages {
+			max-width: 858px;
+			.sendingMessages__form {
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 35px;
+				.sendingMessages__input {
+					flex-basis: 47%;
+					height: 58px;
+					padding-left: 30px;
+					border-radius: 10px;
+					background: #ebebeb;
+					opacity: 0.5;
+					font-family: $font_family_PTSans;
+					font-size: 18px;
+					font-style: italic;
+					line-height: 18px;
+				}
+				.sendingMessages__input_email {
+					margin-left: 6%;
+				}
+				.sendingMessages__input_message {
+					margin-top: 28px;
+					height: 199px;
+					flex-basis: 100%;
+				}
+				.sendingMessages__submit {
+					margin: 61px auto 57px;
+					padding: 20px 67px;
+					background: #9f9acf;
+					border-radius: 10px;
+					font-family: ProximaNova;
+					color: #ffffff;
+					font-size: 20px;
+					font-weight: 700;
+					line-height: 19.5px;
+					text-align: left;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
